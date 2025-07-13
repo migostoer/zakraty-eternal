@@ -1,0 +1,41 @@
+body {
+  font-family: Tahoma, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  text-align: center;
+}
+header {
+  background: #222;
+  color: white;
+  padding: 2em 1em;
+}
+form {
+  margin: 2em auto;
+  width: 90%;
+  max-width: 400px;
+  background: white;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+input, textarea {
+  width: 100%;
+  margin: 0.5em 0;
+  padding: 0.8em;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+button {
+  background: #0070f3;
+  color: white;
+  padding: 1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#status {
+  margin-top: 1em;
+  color: green;
+}
